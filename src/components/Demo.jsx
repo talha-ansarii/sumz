@@ -94,11 +94,12 @@ const Demo = () => {
             ⏎
           </button>
         </form>
-        <div className="flex justify-end">
+        {allArticles.length > 0  &&
+          <div className="flex justify-end">
           <button onClick={handleDeleteHistory} className="black_btn">
             Delete History
           </button>
-        </div>
+        </div>}
 
         {/* Browse URL History */}
         <div className="flex flex-col gap-1 max-h-60 overflow-y-auto">
