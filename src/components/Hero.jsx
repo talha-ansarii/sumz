@@ -11,7 +11,7 @@ const Hero = () => {
           type="button"
           className="black_btn cursor-pointer"
           onClick={() => {
-            window.open("https://github.com/talha-ansarii");
+            window.open("https://github.com/talha-ansarii/sumz");
           }}
         >
           GitHub
