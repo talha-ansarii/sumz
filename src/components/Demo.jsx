@@ -15,7 +15,7 @@ const Demo = () => {
 
   useEffect(() => {
     const articlesFromLocalStorage = JSON.parse(
-      localStorage.getItem("articles")
+      localStorage.getItem("article")
     );
     if (articlesFromLocalStorage) {
       setAllArticles(articlesFromLocalStorage);
